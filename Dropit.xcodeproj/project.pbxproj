@@ -14,6 +14,7 @@
 		D2DAB0DB1A95A15200734B99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DAB0DA1A95A15200734B99 /* Images.xcassets */; };
 		D2DAB0DE1A95A15200734B99 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2DAB0DC1A95A15200734B99 /* LaunchScreen.xib */; };
 		D2DAB0EA1A95A15200734B99 /* DropitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DAB0E91A95A15200734B99 /* DropitTests.m */; };
+		D2DAB0F51A95B09B00734B99 /* DropitBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DAB0F41A95B09B00734B99 /* DropitBehavior.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D2DAB0E31A95A15200734B99 /* DropitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DAB0E81A95A15200734B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2DAB0E91A95A15200734B99 /* DropitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropitTests.m; sourceTree = "<group>"; };
+		D2DAB0F31A95B09B00734B99 /* DropitBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitBehavior.h; sourceTree = "<group>"; };
+		D2DAB0F41A95B09B00734B99 /* DropitBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitBehavior.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +84,10 @@
 		D2DAB0CC1A95A15200734B99 /* Dropit */ = {
 			isa = PBXGroup;
 			children = (
-				D2DAB0D11A95A15200734B99 /* AppDelegate.h */,
-				D2DAB0D21A95A15200734B99 /* AppDelegate.m */,
 				D2DAB0D41A95A15200734B99 /* ViewController.h */,
 				D2DAB0D51A95A15200734B99 /* ViewController.m */,
+				D2DAB0F31A95B09B00734B99 /* DropitBehavior.h */,
+				D2DAB0F41A95B09B00734B99 /* DropitBehavior.m */,
 				D2DAB0D71A95A15200734B99 /* Main.storyboard */,
 				D2DAB0DA1A95A15200734B99 /* Images.xcassets */,
 				D2DAB0DC1A95A15200734B99 /* LaunchScreen.xib */,
@@ -96,6 +99,8 @@
 		D2DAB0CD1A95A15200734B99 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D2DAB0D11A95A15200734B99 /* AppDelegate.h */,
+				D2DAB0D21A95A15200734B99 /* AppDelegate.m */,
 				D2DAB0CE1A95A15200734B99 /* Info.plist */,
 				D2DAB0CF1A95A15200734B99 /* main.m */,
 			);
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2DAB0D61A95A15200734B99 /* ViewController.m in Sources */,
+				D2DAB0F51A95B09B00734B99 /* DropitBehavior.m in Sources */,
 				D2DAB0D31A95A15200734B99 /* AppDelegate.m in Sources */,
 				D2DAB0D01A95A15200734B99 /* main.m in Sources */,
 			);
